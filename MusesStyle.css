@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.top-bar {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.friends-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px;
+}
+
+.friend {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder for friend image */
+}
+
+.trending, .genres, .section-title{
+  padding: 20px;
+}
+
+.trending-books{
+  display: flex;
+  gap: 20px;
+}
+
+.book{
+  background-color: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.rank{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.genre-labels{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.label{
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Basic styling for icons */
+.menu-icon, .plus-icon, .notification-icon, .settings-icon, .star-icon {
+    font-size: 1.2em; /* Adjust size as needed */
+    cursor: pointer; /* Make them look clickable */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
